@@ -1,0 +1,479 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+position: fixed;
+width: 100%;
+height: 1.5cm;
+border: 2px solid #333333;
+background-color: #333333;
+display: flex;
+z-index: 1;
+box-sizing: border-box;
+}
+.headinga{
+color: white;
+font-weight: 300;
+font-family: sans-serif;
+font-size: 40px;
+padding-left:.5cm ;
+padding-top: .1cm;
+cursor: pointer;
+}
+.headingb{
+background-color: #222222;
+color: #9c9c9c;
+font-size: 16px;
+font-family: sans-serif;
+text-transform: uppercase;
+width: 17%;
+text-align: center;
+position: relative;
+left: 2%;
+cursor: pointer;
+}
+.headingb span{
+position: relative;
+top: .5cm;
+}
+.iconsa ul li{
+list-style: none;
+display: inline-block;
+color:#9b9b9b;
+font-weight: 600;
+position: relative;
+left: 15.5cm;
+font-size: 30px;
+padding-top: .2cm;
+padding-left: .5cm;
+height: 1.4cm;
+cursor: pointer;
+}
+#ia{
+padding-right: .5cm;
+}
+#ib{
+padding-right: .5cm;
+}#ic{
+padding-right: .5cm;
+}#id{
+background-color: #7ac64d;
+padding-right: .5cm;
+color: white;
+}
+#ie{
+padding-right: .2cm;
+}
+#ia:hover{
+background-color: #222222;
+color: white;
+}
+#ib:hover{
+background-color: #222222;
+color: white;
+}#ic:hover{
+background-color:#222222;
+color: white;
+}#id:hover{
+background-color:#222222;
+color: white;
+}
+#ie:hover{
+background-color:#222222;
+color: white;
+}
+header img{
+height:  22cm;
+width: 100%;
+box-sizing: border-box;
+}
+.coverimg{
+background-color: #0000004f;
+width: 100%;
+height: 20.5cm;
+position: absolute;
+top: 57px;
+color: white;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.contanier1{   
+display: flex;
+justify-content:space-around;
+align-items: first baseline;
+color: white;
+font-family: sans-serif;
+padding-top: 1.5cm;
+box-sizing: border-box;
+}
+.coverimg h2{
+cursor: pointer;
+}
+.coverimg ul li{
+list-style: none;
+display: inline-block;
+padding-left: 1cm;
+cursor: pointer;
+}
+.contanier2 .pa{
+font-size: 44px;
+}
+.contanier2{
+position: relative;
+top: 4.5cm;
+left: 4cm;
+}
+.contanier2 .pb{
+padding-top: .6cm;
+}
+.contanier2 .buttona{
+margin-top: 1cm;
+height: 1.4cm;
+width: 4cm;
+background-color: #0389ff;
+border: none;
+color: rgb(255, 255, 255);
+}
+.contanier2 .buttonb{
+margin-top: 1cm;
+height: 1.4cm;
+width: 4cm;
+background-color: #ffffff00;
+border: none;
+color: rgb(255, 255, 255);
+}
+.contanier3 .carda{
+border: 2px solid;
+background-color: white;
+box-sizing: border-box;
+width: 8.5cm;
+height: 9cm;
+box-shadow: 2px 2px 10px black;
+position: relative;
+top: 7cm;
+box-sizing: border-box;
+}
+.contanier3{
+display: flex;
+justify-content: space-evenly;
+box-sizing: border-box;
+}
+.contanier3 .carda img{
+height: 4cm;
+width: 3cm;
+color: #1273eb;
+position: relative;
+bottom: .3cm;
+left: .5cm;
+}
+.contanier3 .carda h3{
+color: black;
+font-weight: lighter;
+padding-left: .9cm;
+position: relative;
+bottom: .7cm;
+}
+.contanier3 .carda p{
+color: #99a3ad;
+padding-left: .9cm;
+}
+.contanier3 .carda button{
+cursor: pointer;
+border: none;
+background-color: white;
+position: relative;
+top: .5cm;
+left: .8cm;
+font-size: 17px;
+}
+.allb h1{
+    font-family: sans-serif;
+    position: relative;
+    top: 8.5cm;
+    left: 3cm;
+    font-weight: lighter;
+}
+.allb img{
+    width: 45%;
+    position: relative;
+    top: 9cm;
+    left: 3cm;
+    float: left;
+    }
+#yh{
+    position: relative;
+    left: 22cm;
+}
+.contaneir4 h3{
+    position: relative;
+    top: 9cm;
+    left: 5cm;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #5976eb;
+    cursor: pointer;
+}
+.contaneir4 p{
+    position: relative;
+    left: 6.5cm;
+    top: 10cm;
+    color: #99a0a3;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+word-spacing: 2px;
+}
+.contaneir4 ul li{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+    position: relative;
+    top: 10.5cm;
+    left: 5cm;
+    padding-top: .7cm;
+    font-size: 18px;
+}
+.contanier5{
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    height: 5cm;
+    position: relative;
+    top: 14.5cm;
+    background-color: #f5f5f5;
+}
+.contanier5 ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    position: relative;
+    right: 8cm;
+    top: 1.6cm;
+
+}
+.contanier5 ul li span{
+    color: #8e8e8f;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.contanier5 ul li{
+list-style: none;
+}
+.contanier5 ul li h1{
+    color: #3da0f7;
+     font-weight: lighter;
+     font-size: 50px;
+}
+#gbyu{
+    position: relative;
+    left: 1.1cm;
+}
+#gby{
+    position: relative;
+    left: 1.4cm;
+}
+.theLeadership h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: 17cm;
+    left: 15cm;
+}
+.theLeadership .imgc{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10cm;
+    position: relative;
+    top: 18.5cm;
+}
+.happyCustomers h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: 21.5cm;
+    left: .4cm; 
+    text-align: center;
+}
+#rh{
+font-size: 3cm;
+}
+.happyCustomers p{
+    text-align: center;
+    position: relative;
+    top: 22cm;
+    color: #1f1f1f;
+    font-size: 20px;
+}
+.contaner7{
+    background-color: #f0f0f0;
+position: relative;
+top: 27cm;
+height: 18cm;
+width: 100%;
+}
+.contaner7 .contanier6 img{
+    height: 3cm;
+}
+.contanier6{
+    text-align: center;
+    font-family: sans-serif;
+}
+.contanier6 p{
+    color: #8e8e8f;
+}
+.contaner7{
+    display: flex;
+    justify-content: center;
+     justify-content: space-evenly;
+}
+.contanier8 h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: relative;
+    top: 28.5cm;
+    text-align: center;
+    z-index: 1;
+}
+.contaneir9{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 14cm;
+}
+.contaneir9 .contanier6 img{
+    height: 3cm;
+}
+.buttonc{
+    position: relative;
+    top: 17cm;
+    left: 16cm;
+    cursor: pointer;
+    background-color: #000000;
+    height: 1.5cm;
+    width: 5cm;
+    color: #ffffff;
+    border: none;
+}
+.contanier10 .contanier11{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 23cm; 
+}
+.contanier10 .contanier11 h1{
+    font-weight: lighter;
+}
+.contanier10 .contanier11 p{
+    color:#8690a7;
+    padding-top: .3cm;
+}
+.contanier12{
+    display: flex;
+    position: relative;
+    top: 25cm;
+    left: 5.2cm;
+}
+.contanier12 img{
+    width: 35.5%;
+    height: 9cm;
+}
+.contanier13 img{
+    width:71.5%;
+    height: 14cm;
+    position: relative;
+    top: 25cm;
+    left: 5.1cm;
+}
+.contanier14{
+    background-color: #f5f5f5;
+    position: relative;
+    top: 28cm;
+    width: 100%;
+    height: 10cm;
+    font-family: sans-serif;
+}
+.contanier15{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contanier14 .about h4{
+    color: #c4bec0;
+    font-weight: normal;
+}
+.contanier14 .about p{
+    color: #979797;
+    padding-top: .3cm;
+}
+.contanier14 .about{
+    position: relative;
+    top: 3cm;
+    left: 0cm;
+}
+.contanier14 .learnmore h4{
+color:#c4bec0;
+font-weight: normal;
+position: relative;
+left: 1cm;
+}
+.contanier14 .learnmore ul li{
+    list-style: none;
+    padding-top: .3cm;
+}
+.contanier14 .learnmore{
+    position: relative;
+    top: 2.8cm;
+}
+.contanier14 .support h4{
+    color:#c4bec0;
+    font-weight: normal;
+    position: relative;
+    left: 1cm;
+    }
+    .contanier14 .support ul li{
+        list-style: none;
+        padding-top: .3cm;
+    }
+    .contanier14 .support{
+        position: relative;
+        top: 2.8cm;
+    }
+    .contanier14 .aboutus h4{
+        color:#c4bec0;
+        font-weight: normal;
+        position: relative;
+        left: 1cm;
+        }
+        .contanier14 .aboutus ul li{
+            list-style: none;
+            padding-top: .3cm;
+        }
+        .contanier14 .aboutus{
+            position: relative;
+            top: 2.8cm;
+        }
+        .contanier14 .connectwithus h4{
+            color:#c4bec0;
+            font-weight: normal;
+            position: relative;
+            left: 1cm;
+        }
+        .contanier14 .connectwithus{
+            position: relative;
+            top: 2.8cm;
+        }
+         .gsl{
+position: relative;
+left: 1cm;
+top: .2cm;
+        }
+        .contanier16{
+            position: relative;
+            top: 5cm;
+            left: 10cm;
+        }
+        .contanier16 i{
+            color: rgb(209, 42, 42);
+        }
